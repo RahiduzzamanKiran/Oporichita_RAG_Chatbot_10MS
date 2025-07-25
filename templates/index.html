@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bangla RAG Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <h1>জায়গা আছে!!??</h1>
+        <textarea id="query-input" placeholder="আপনার প্রশ্ন লিখুন..."></textarea>
+        <button id="ask-btn">জিজ্ঞাসা করুন</button>
+        <div id="answer-output"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

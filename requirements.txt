@@ -1,0 +1,14 @@
+Flask
+pytesseract
+pdf2image
+google-generativeai
+langchain
+tiktoken
+chromadb
+sentence-transformers
+transformers
+python-dotenv
+langchain_community
+langchain-core
+
+
