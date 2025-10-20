@@ -53,9 +53,9 @@ User Question: রবীন্দ্রনাথ ঠাকুর এর জন�
 # Implementation Details
 Text Extraction Method and Challenges
 
-Method/Library: Used pytesseract with pdf2image to extract text from PDFs.  
+Method/Library: Used easyOCR with pdf2image to extract text from PDFs.  
 
-Reason: pdf2image converts PDF pages to images, and pytesseract performs OCR to extract text, which is effective for scanned or image-based PDFs.  
+Reason: pdf2image converts PDF pages to images, and easyOCR performs OCR to extract text, which is effective for scanned or image-based PDFs.  
 
 Challenges:  
 
